@@ -25,4 +25,4 @@
 - RF11 – O sistema também deve permitir o gerenciamento de usuários, livros, reservas e empréstimos pelo administrador do sistema.
 
 ## Apresentação do Programa
-- A apresentação do programa pode ser assistida no link: https://www.youtube.com/watch?v=nWOJkIx3Ezo&t=53s
+- A apresentação do programa pode ser assistida no link: https://www.youtube.com/watch?v=nWOJkIx3Ezo
