@@ -10,6 +10,9 @@ Para criar o banco de dados basta executar o script do Banco de dados num notebo
 
 No arquivo 'Apresentação do Projeto.pdf'  consta a apresentação resumida do projeto e suas funcionalidades.
 
+No arquivo zipado, consta o protótipo do programa, ja com o Banco de dados sql criado e pronto para uso, basta descompactar o arquivo e na pasta 'aplicativo livraria' execucar o programa 'AplicativoLivraria' com duplo clique.
+
+O usuário principal é o 'admin' e a senha é 'admin'.
 
 ## Linguagem de Programação:  
 - Python
@@ -20,5 +23,4 @@ No arquivo 'Apresentação do Projeto.pdf'  consta a apresentação resumida do 
 - CX_Freeze
 
 ## Apresentação do Programa no youtube: Disponível temporariamente.
-
 - Link: https://www.youtube.com/watch?v=nWOJkIx3Ezo
