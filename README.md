@@ -1,28 +1,24 @@
-## Documentação do Projeto de um Sistema para Gestão de Empréstimo de Livros de uma Biblioteca
+## Documentação do Projeto de Sistema para Gestão de Livros de uma Biblioteca
+
+O sistema foi construído em linguagem Python com a interface gráfica construída com o tkinter e o banco de dados com sqlite3, existem dois arquivos com o código, sendo um para criar o banco de dados e o outro para criar a interface do sistema.
+
+Após a construição dos código do sistema, o mesmo foi transformado em executável com biblioeca CX_Freeze. 
+
+Sendo necessário para rodar o sistema, que o banco de dados esteja criado e salvo na mesma pasta do programa. 
+
+Para criar o banco de dados basta executar o script do Banco de dados num notebook ou usando o script executável.
+
+No arquivo 'Apresentação do Projeto.pdf'  consta a apresentação resumida do projeto e suas funcionalidades.
 
 
-## Sobre o Projeto:
-## Sistema de Apoio a Gestão de uma Biblioteca Escolar ou Pessoal
+## Linguagem de Programação:  
+- Python
 
-## Descrição do Tema:
-- O sistema deve dar apoio a gestão de uma biblioteca escolar, o sistema só gerencia livros. Cada livro tem um número de exemplares, um período máximo de empréstimo e uma descrição.  Um título só pode ser emprestado a leitores cadastrados, que possuem um período de empréstimo e um título pode ou não estar disponível para empréstimo.  O sistema também, deve permitir o tratamento de perda e dar apoio ao controle de reservas e empréstimos.
-## Justificativa:
-- O projeto atual é um pequeno ajuste no modelo de projeto sugerido de biblioteca, a diferença desse projeto está na possibilidade de utilização para fins pessoais de um usuário comum que deseja gerenciar sua biblioteca.
-- O formato escolhido permite atender tanto a demanda de uma biblioteca escolar como qualquer outro usuário que queira gerenciar uma biblioteca pessoal, fazendo o controle de seus livros.
+## Bibliotecas: 
+- tkinter
+- sqlite3
+- CX_Freeze
 
-## Especificações dos Requisitos:
+## Apresentação do Programa no youtube: Disponível temporariamente.
 
-- RF01 – O sistema deve exigir que o usuário faça a login para realizar consultas e reservas.
-- RF02 – O sistema deve permitir que o usuário faça o cadastro para acesso ao sistema.
-- RF03 – O sistema deve permitir a reserva de um ou mais livros mesmo sem estoque.
-- RF04 –  sistema deve impedir o registro de empréstimo de um livro sem estoque.
-- RF05 – O sistema deve permitir a consulta de todos os livros por autor, ano, editora ou título.
-- RF06 – O Sistema dever permitir a reservar de um livro pelo próprio usuário ou gerente
-- RF07 – Os pedidos de reservas são obrigatórios para efetivar o empréstimo.
-- RF08 – O empréstimo é incluído/confirmado pelo responsável pela biblioteca/gerente ou admin.
-- RF09 – O sistema deve registrar o início do empréstimo, quando da inclusão do empréstimo pelo bibliotecário/gerente ou admin.
-- RF10 – O sistema deve permitir o registro da devolução, o extravio ou o reembolso do livro.
-- RF11 – O sistema também deve permitir o gerenciamento de usuários, livros, reservas e empréstimos pelo administrador do sistema.
-
-## Apresentação do Programa
-- A apresentação do programa pode ser assistida no link: https://www.youtube.com/watch?v=nWOJkIx3Ezo
+- Link: https://www.youtube.com/watch?v=nWOJkIx3Ezo
